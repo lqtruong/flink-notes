@@ -8,6 +8,7 @@ object FraudDetectionJob {
 
     val env = StreamExecutionEnvironment.getExecutionEnvironment
 
+
     env.execute("Flink Fraud Detection Job")
   }
 }
